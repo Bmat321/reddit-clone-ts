@@ -158,7 +158,7 @@ const Comments: React.FC<CommentsProps> = ({
   }, [selectedPost?.id]);
 
   useEffect(() => {
-    console.log("HERE IS SELECTED POST", selectedPost?.id);
+
 
     getPostComments();
   }, [getPostComments, selectedPost?.id]);
